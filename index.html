@@ -9,24 +9,27 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header class="row">
-    <div class="col-md-9">
-      <div class="row">
-        <div class="col-md-3 col-xs-6"></div>
-        <div class="col-md-3 col-xs-6"></div>
-        <div class="col-md-3 col-xs-6"></div>
-        <div class="col-md-3 col-xs-6"></div>
-      </div>
-    </div>
-    <div class="col-md-3"></div>
-  </header>
-  <main class="row">
-    <div class="col-xs-4 col-xs-offset-4 col-md-6 col-md-offset-3 test"></div>
-  </main>
- <script
- src=“https://code.jquery.com/jquery-2.2.4.min.js”
- integrity=“sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=”
- crossorigin=“anonymous”></script>
- <script src="js/bootstrap.min.js"></script>
+
+  <div class="container-fluid">
+    <header class="row header-row"></header>
+    <nav class="row nav-row"></nav>
+    <section class="row">
+      <content class="content col-xs-9 col-md-9"></content>
+      <aside class="aside col-xs-3 col-md-3"></aside>
+    </section>
+    <section class="row">
+      <promo class="promo col-xs-3 col-md-3"></promo>
+      <promo class="promo col-xs-3 col-md-3"></promo>
+      <promo class="promo col-xs-3 col-md-3"></promo>
+      <promo class="promo col-xs-3 col-md-3"></promo>
+    </section>
+    <footer class="row footer"></footer>
+  </div>
+
+  <script
+  src=“https://code.jquery.com/jquery-2.2.4.min.js”
+  integrity=“sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=”
+  crossorigin=“anonymous”></script>
+  <script src="js/bootstrap.min.js"></script>
 </body>
 </html>

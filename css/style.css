@@ -1,16 +1,46 @@
-.col-md-9 {
-  background-color: #e40007;
-  height: 200px;
+body {
+  background-color: yellow;
+  padding: 5% 2% 2% 2%;
 }
 
-.col-md-3 {
-  background-color: #00ffff;
+.container-fluid {
+  height: 100%;
+  border: 1px solid #000;
+  background-color: pink;
+}
+
+.header-row {
   height: 100px;
   border: 1px solid #000;
-
+  background-color: blue;
 }
 
-.test {
+.nav-row {
   height: 50px;
-  background-color: #00ff00;
+  border: 1px solid #000;
+  background: green;
+}
+
+.content {
+  height: 150px;
+  border: 1px solid #000;
+  background-color: red;
+}
+
+.aside {
+  height: 150px;
+  border: 1px solid #000;
+  background-color: #00ffff;
+}
+
+.promo {
+  height: 100px;
+  border: 1px solid #000;
+  background-color: orange;
+}
+
+.footer {
+  height: 75px;
+  border: 1px solid #000;
+  background-color: black;
 }
